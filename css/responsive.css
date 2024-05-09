@@ -1,0 +1,27 @@
+@media screen and (max-width : 992px) {
+    .nav-link.active::after {
+        width: 50px;
+        left: 0;
+    }
+
+    .servis-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio .services-content ul {
+        width: 100%
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .nav-link.active::after {
+        left: 0px;
+
+    }
+
+    .portfolio .services-content ul {
+        width100%
+    }
+}
